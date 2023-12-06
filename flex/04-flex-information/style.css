@@ -1,0 +1,29 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    /*
+     * take away: text-align is inherited (just like font), which
+     * block containers will inherit and apply it to their inline-level content.
+     */
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 32px;
+}
+
+.media-objects {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.media-object {
+    max-width: 200px;
+}
